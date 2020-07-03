@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <EditText
+            android:id="@+id/txtVLStart"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:ems="10"
+            android:gravity="clip_horizontal|center"
+            android:hint="@string/txtVLStart"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/Vl_Seek"
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="clip_horizontal|center|center_horizontal"
+            android:foregroundGravity="center_vertical|clip_horizontal|center"
+            android:gravity="clip_horizontal|center|center_horizontal"
+            android:text="@string/Vl_Seek"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <SeekBar
+            android:id="@+id/seekBarVlap"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:max="50"
+            android:min="1" />
+
+        <Switch
+            android:id="@+id/switchFBouNUMP"
+            android:layout_width="match_parent"
+            android:layout_height="137dp"
+            android:text="@string/FBouNUMP" />
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonStart" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

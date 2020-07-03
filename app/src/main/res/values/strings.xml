@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CalcFBNUMP</string>
+    <string name="txtVLStart">Valor Inicial</string>
+    <string name="FBouNUMP">Fibonacci ou Numeros Primos</string>
+    <string name="Vl_Seek">valor</string>
+    <string name="buttonStart">Start</string>
+    <string name="TextViewResult">Result</string>
+    <string name="ERRO">ERRO</string>
+    <string name="FiboOON">Fibonacci</string>
+    <string name="PrimeOFF">Numeros Primos </string>
+    <string name="txtPrime">Primos</string>
+    <string name="txtFibonacci">Fibonaacci</string>
+</resources>
